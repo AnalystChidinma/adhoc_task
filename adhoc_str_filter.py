@@ -9,8 +9,6 @@ data = [10, 50, "samuel", 2.5, "republic", 30, "simple"]
 
 for item in data:
     if type(item) == str:
-        continue
-    print(item)
-else:
-    print("No non-string elements found.")
-
+        continue     
+    else:
+        print(item)

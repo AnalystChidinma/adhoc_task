@@ -16,5 +16,5 @@ for num in List:
     if type(num) == str:
         if num.startswith("Republic") and num.endswith("Nigeria"):
             print(num)
-else:
-    print("no such element found")
+    else:
+        print("no such element")
