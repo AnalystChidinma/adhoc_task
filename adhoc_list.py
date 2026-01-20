@@ -15,6 +15,6 @@ List = ["8",
 for num in List:
     if type(num) == str:
         if num.startswith("Republic") and num.endswith("Nigeria"):
-            pass 
+            print(num)
 else:
-    print("the dataset does not imply to any of the conditions")
+    print("no such element found")

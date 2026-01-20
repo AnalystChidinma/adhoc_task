@@ -11,4 +11,6 @@ for item in data:
     if type(item) == str:
         continue
     print(item)
+else:
+    print("No non-string elements found.")
 

@@ -20,5 +20,4 @@ for champ in champion["data"].values():
     df = pd.json_normalize(result)
 
     print(df)
-    print("saved as both dataframe and JSON")
-    print("total champions:", len(result))
+    print("saved as both dataframe and JSON" )
